@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3844/3844724.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="music">
+        <div class="dashboard">
+            <div class="header">
+                <p class="header__satus">Now playing:</p>
+                <h1 class="header__name-musis">
+                    Name Music
+                </h1>
+            </div>
+
+            <div class="cd">
+                <div class="cd-thumb">
+
+                </div>
+            </div>
+
+            <div class="control">
+                <div class="control-repeat">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+
+                <div class="control-pre">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+
+                <div class="control-play">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <i class="fa-solid fa-circle-pause"></i>
+                </div>
+
+                <div class="control-next">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+
+                <div class="control-random">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+
+            <input type="range" class="progress" value="0" step="1" min="0" max="100">
+
+            <audio src="" class="audio" id="audio">
+
+            </audio>
+        </div>
+
+        <div class="playlist">
+            
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
