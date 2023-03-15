@@ -127,7 +127,6 @@ i.fa-circle-pause{
 .playlist{
     width: 100%;
     z-index: 1;
-    height: 100vh;
     margin-top: 400px;
     padding: 20px 12px;
     background-color: rgb(230, 230, 230);
@@ -166,7 +165,8 @@ i.fa-circle-pause{
 }
 
 .song-desc{
-    margin-left: 24px;
+    flex: 1;
+    margin-left: 20px;
 }
 
 .song-title{
