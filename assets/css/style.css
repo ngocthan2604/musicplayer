@@ -167,10 +167,12 @@ i.fa-circle-pause{
 .song-desc{
     flex: 1;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 .song-title{
     font-size: 2.2rem;
+    text-transform: capitalize;
 }
 
 .song-singer{
